@@ -7,6 +7,7 @@ You have to provide configuration details, including a private key file, your te
 ```
 runShippingExtractionJob("myNewFile.json", { content: "My very very special Content", moreContent: "Something completely different", value: 34 })
 ```
+Note: this code can be used inside an Function running on Project Fn and on Oracle Functions. The func.js script and the func.yaml file define a function that can be deployed and invoked. 
 
 ## Installing & Running
 
