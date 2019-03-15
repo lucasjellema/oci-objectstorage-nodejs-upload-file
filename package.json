@@ -1,0 +1,16 @@
+{
+	"name": "hellofn",
+	"version": "1.0.0",
+	"description": "example function",
+	"main": "func.js",
+	"author": "",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"@fnproject/fdk": ">=0.0.13",
+		"http-signature": "^1.2.0",
+		"jssha": "^2.3.1",
+		"save": "^2.3.3",
+		"winston": "^2.4.3",
+		"winston-papertrail": "^1.0.5"
+	}
+}
