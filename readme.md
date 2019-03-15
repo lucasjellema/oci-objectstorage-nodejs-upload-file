@@ -1,6 +1,16 @@
 # Save File to Oracle Cloud Infrastructure Object Storage from Node through REST API
 
-Clone Repository
+This repository contains an example of how to upload a file to Oracle Cloud Infrastructure from a Node application using the OCI REST APIs. In a very similar way, we can invoke other REST APIs for other OCI services.
+
+You have to provide configuration details, including a private key file, your tenancy, user, compartment, public key fingerprint etc.
+
+```
+runShippingExtractionJob("myNewFile.json", { content: "My very very special Content", moreContent: "Something completely different", value: 34 })
+```
+
+## Installing & Running
+
+Clone this Repository
 
 Run npm install
 
