@@ -37,7 +37,8 @@ async function runShippingExtractionJob(objectName, input) {
         namespaceName: configuration.namespaceName,
         bucketName: configuration.bucketName
     };
-    parameters.body = JSON.stringify({ key: "special", koe: "hello", input: input });
+    //parameters.body = JSON.stringify({ key: "special", koe: "hello", input: input });
+    parameters.body = JSON.stringify({ input });
     objectStore.obj.put(auth, parameters, callback);
     return;
 
@@ -48,4 +49,4 @@ module.exports = {
 }
 
 // test call
-runShippingExtractionJob("newData3.json", { content: "My  very very special COntent" })
+runShippingExtractionJob("BrandNewFile.json", { content: "My very very special Content", moreContent: "Something completely different", value: 34 })
