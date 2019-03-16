@@ -42,8 +42,8 @@ function sign( auth, request, body ) {
   }
 //https://github.com/joyent/node-http-signature/issues/81
   httpSignature.sign( request, { key: auth.privateKey
-    , passphrase:'faas2019',
-                                 keyId: auth.tenancyId + "/" + 
+    , passphrase:auth.passphrase,
+    keyId: auth.tenancyId + "/" + 
                                         auth.userId + "/" + 
                                         auth.keyFingerprint,
                                  headers: headersToSign } );

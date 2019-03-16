@@ -9,6 +9,8 @@ runShippingExtractionJob("myNewFile.json", { content: "My very very special Cont
 ```
 Note: this code can be used inside an Function running on Project Fn and on Oracle Functions. The func.js script and the func.yaml file define a function that can be deployed and invoked. 
 
+Also read this blog article [Save File to Oracle Cloud Infrastructure Object Storage from Node through REST API](https://technology.amis.nl/2019/03/16/save-file-to-oracle-cloud-infrastructure-object-storage-from-node-through-rest-api/)
+
 ## Installing & Running
 
 Clone this Repository
